@@ -36,8 +36,8 @@ export function Header() {
                     </button>
 
                     {/* Menú desktop */}
-                    <div className="hidden md:flex items-center space-x-4">
-                        <nav className="space-x-4">
+                    <div className="hidden md:flex items-center justify-between flex-1 pl-8">
+                        <nav className="flex-1 flex justify-center">
                             <Link href="/tools" className="text-gray-600 hover:text-gray-900">
                                 Herramientas
                             </Link>
